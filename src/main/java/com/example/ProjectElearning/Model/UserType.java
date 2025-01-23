@@ -21,7 +21,7 @@ public class UserType {
     private String type;
 
     @OneToMany(mappedBy = "userType")
-    private List<User> users;
+     private List<User> users;
 
     public UserType(Long id, String type) {
         this.id = id;

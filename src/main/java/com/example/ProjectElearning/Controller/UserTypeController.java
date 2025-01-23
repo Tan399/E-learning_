@@ -14,7 +14,7 @@ public class UserTypeController {
     private UserTypeService userTypeService;
 
     @GetMapping
-    public List<UserType> getAllUserTypes() {
+     public List<UserType> getAllUserTypes() {
         return userTypeService.getAllUserTypes();
     }
 

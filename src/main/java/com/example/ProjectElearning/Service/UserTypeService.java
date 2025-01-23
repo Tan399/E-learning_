@@ -12,7 +12,7 @@ public class UserTypeService {
     @Autowired
     private UserTypeRepository userTypeRepository;
 
-    public List getAllUserTypes() {
+    public  List getAllUserTypes() {
         return userTypeRepository.findAll();
     }
 
